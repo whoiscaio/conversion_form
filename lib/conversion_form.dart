@@ -27,6 +27,7 @@ class _ConversionFormState extends State<ConversionForm> {
     return Form(
       key: _formKey,
       child: Column(children: [
+        const Text('Insira um número binário', style: TextStyle( fontSize: 20 )),
         TextFormField(
           controller: _textController,
           validator: _validate
