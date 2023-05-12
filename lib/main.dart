@@ -1,3 +1,4 @@
+import 'package:conversion_form/conversion_form.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Conversion Form')
         ),
-        body: const Text('Conversion Form'),
+        body: const ConversionForm(),
       ),
     );
   }
